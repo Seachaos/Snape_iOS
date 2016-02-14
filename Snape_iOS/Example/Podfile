@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Snape_iOS_Example', :exclusive => true do
+  pod 'Snape_iOS', :path => '../'
+end
+
+target 'Snape_iOS_Tests', :exclusive => true do
+  pod 'Snape_iOS', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end

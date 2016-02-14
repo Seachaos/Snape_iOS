@@ -1,0 +1,25 @@
+{
+  "name": "Snape_iOS",
+  "version": "0.1.0",
+  "summary": "A short description of Snape_iOS.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Snape_iOS",
+  "license": "MIT",
+  "authors": {
+    "Seachaos": "ye.jian.yin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Snape_iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Snape_iOS": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

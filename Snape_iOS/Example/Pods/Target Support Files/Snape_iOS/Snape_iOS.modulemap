@@ -1,0 +1,6 @@
+framework module Snape_iOS {
+  umbrella header "Snape_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
