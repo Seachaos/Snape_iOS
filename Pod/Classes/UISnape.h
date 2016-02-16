@@ -37,9 +37,9 @@
 #import "SnapeTaskObject.h"
 
 typedef enum _UISnapeTestResult{
-    WAIT_FOR_RESULT = -1,
-    FAILED = 0,
-    SUCCESS = 1
+    SNAPE_WAIT_FOR_RESULT = -1,
+    SNAPE_FAILED = 0,
+    SNAPE_SUCCESS = 1
 } UISnapeTestResult;
 
 @protocol UISnapeDelegate <NSObject>

@@ -44,8 +44,8 @@
 @property (nonatomic, retain) UISnape *snape;
 @property (nonatomic, retain) NSString *name;
 
-- (void)success;
-- (void)failed;
-- (void)failedBecause:(NSString*)reason;
+- (BOOL)success;
+- (BOOL)failed;
+- (BOOL)failedBecause:(NSString*)reason;
 
 @end

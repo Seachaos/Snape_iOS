@@ -19,14 +19,14 @@
     return self;
 }
 
-- (void)success{
-    [snape success:taskId];
+- (BOOL)success{
+    return [snape success:taskId];
 }
-- (void)failed{
-    [self failedBecause:nil];
+- (BOOL)failed{
+    return [self failedBecause:nil];
 }
-- (void)failedBecause:(NSString*)reason{
-    [snape failed:taskId because:reason];
+- (BOOL)failedBecause:(NSString*)reason{
+    return [snape failed:taskId because:reason];
 }
 
 @end

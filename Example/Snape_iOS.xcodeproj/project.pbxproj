@@ -23,6 +23,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F0E553821C73897E007E028F /* TestSnape.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E553811C73897E007E028F /* TestSnape.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		8F99E7BDBB228AE5BAAA8DD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B440CC2BBD29141BC4B79107 /* Pods_Snape_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snape_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C12EDAD22E2FDD80F9CE8C3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0E553811C73897E007E028F /* TestSnape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSnape.m; sourceTree = "<group>"; };
+		F0E553831C738B85007E028F /* Snape_iOS.podspec.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Snape_iOS.podspec.json; path = "Pods/Local Podspecs/Snape_iOS.podspec.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
+				F0E553811C73897E007E028F /* TestSnape.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -176,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				58F2CD3FE52885D638D79252 /* Snape_iOS.podspec */,
+				F0E553831C738B85007E028F /* Snape_iOS.podspec.json */,
 				8F99E7BDBB228AE5BAAA8DD3 /* README.md */,
 				C12EDAD22E2FDD80F9CE8C3B /* LICENSE */,
 			);
@@ -401,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				F0E553821C73897E007E028F /* TestSnape.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

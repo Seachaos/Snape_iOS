@@ -35,10 +35,10 @@
 #pragma mark - UISnapeDelegate
 - (void)snapeReadyForTest:(UISnape*)snape{
     [snape test:@"Example1 is Success" code:^UISnapeTestResult(UISnape *s, SnapeTaskObject *task, NSString *jobId){
-        return SUCCESS;
+        return SNAPE_SUCCESS;
     }];
     [snape test:@"Example2 is Failed" code:^UISnapeTestResult(UISnape *s, SnapeTaskObject *task, NSString *jobId){
-        return FAILED;
+        return SNAPE_FAILED;
     }];
 }
 

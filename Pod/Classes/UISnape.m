@@ -103,10 +103,10 @@
     
     // check result or wait?
     switch (testResult) {
-        case SUCCESS:
+        case SNAPE_SUCCESS:
             [self success:task.taskId];
             break;
-        case FAILED:
+        case SNAPE_FAILED:
             [self failed:task.taskId];
             break;
         default:
@@ -116,7 +116,7 @@
 }
 
 - (UISnapeTestResult)waitForResult{
-    while (testResult==WAIT_FOR_RESULT) {
+    while (testResult==SNAPE_WAIT_FOR_RESULT) {
         [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:0.1]];
     }
     return testResult;
@@ -125,7 +125,7 @@
 #pragma - for test result call
 
 - (BOOL)success:(NSString*)taskId{
-    testResult = SUCCESS;
+    testResult = SNAPE_SUCCESS;
     SnapeTaskObject *task = [self getTaskByTaskId:taskId];
     if(task==nil){
         return NO;
@@ -135,7 +135,7 @@
 }
 
 - (BOOL)failed:(NSString*)taskId because:(NSString*)reason{
-    testResult = FAILED;
+    testResult = SNAPE_FAILED;
     if(taskId==nil){
         return NO;
     }
