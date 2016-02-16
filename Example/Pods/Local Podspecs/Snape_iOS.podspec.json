@@ -2,14 +2,14 @@
   "name": "Snape_iOS",
   "version": "0.1.1",
   "summary": "A dev of Snape_iOS.",
-  "description": "",
+  "description": "a local test for Snape_iOS",
   "homepage": "https://github.com/Seachaos/Snape_iOS",
   "license": "MIT",
   "authors": {
     "Seachaos": "ye.jian.yin@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Seachaos/Snape_iOS",
+    "git": "https://github.com/Seachaos/Snape_iOS.git",
     "tag": "0.1.1"
   },
   "platforms": {
